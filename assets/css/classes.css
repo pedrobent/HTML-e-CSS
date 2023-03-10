@@ -8,7 +8,7 @@
 
 .main-bg{
     background-image: url('../img/hollowed-boxes.svg');
-    background-size: contain;
+    background-size: auto;
     color: var(--white-color);
 }
 
