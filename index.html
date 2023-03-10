@@ -17,16 +17,22 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
-<body class="main-bg">
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu">
         <div class="main-content menu-content">
-            <h1><a href="#">LOGO</a></h1>
+            <h1 onclick="getElementById('close-menu').checked = false">
+                <a href="#intro">LOGO</a>
+            </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li><a href="#top3">Intro</a></li>
                     <li><a href="#grid-one">Programador</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -75,9 +81,138 @@
             </div>
         </section>
 
-        <section id="gallery" class="section white-bg">
+        <section id="gallery" class="grid-one section white-bg">
+            <div class="grid-one-content main-content">
+                <h2 class="grid-main-heading">Gallery</h2>
+                <p class="grid-description">algumas imagens</p>
+                <div class="grid">
 
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image">
+                        </div>
+                
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=gap" alt="random image">
+                        </div>
+                   
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=sit" alt="random image">
+                        </div>
+                    
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=$" alt="random image">
+                        </div>
+
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=hj" alt="random image">
+                        </div>
+                    
+                        <div class="gallery">
+                            <img src="https://source.unsplash.com/random/360x360?r=" alt="random image">
+                        </div>
+                </div>
+            </div>
         </section>
+
+        <section id="pricing" class="section white-bg">
+            <div class="main-content top3-content">
+                <h2>pricing</h2>
+                <p>Se você está em busca de uma carreira repleta de oportunidades no mercado de trabalho e com bons salários iniciais, uma boa alternativa é investir nas profissões de programação. </p>
+
+                <div class="responsive-table">
+                    <table>
+                        <caption>pricing table</caption>
+
+                        <thead>
+                            <tr>
+                            <th>title 1</th>
+                            <th>title 2</th>
+                            <th>title 3</th>
+                            <th>title 4</th>
+                            <th>title 5</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                                <td>content 5</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                                <td>content 5</td>
+                            </tr>
+                            <tr>
+                                <td>content 1</td>
+                                <td>content 2</td>
+                                <td>content 3</td>
+                                <td>content 4</td>
+                                <td>content 5</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="3"> Testanto</td>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="intro section main-bg">
+            <div class="main-content intro-content">
+                    <div class="intro-text-content">
+                        <h2>Contact</h2>
+                        <p>Para mais informações e perguntas, basta mandar uma mensagem ou entrar em contato conosco.</p>
+                    </div>
+                    <div class="intro-img"><img src="assets/img/undraw_contact_us_re_4qqt.svg" alt="Desenho homem com tablet">
+                    </div>
+
+                    <div class="contact-form">
+                        <fieldset class="form-grid">
+                            <legend>Contact me</legend>
+
+                            <div class="form-group">
+                                <label for="first-name">First name</label>
+                                <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="last-name">Last name</label>
+                                <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Your email">
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message">Message </label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <button type="submit">Send message</button>
+                            </div>
+
+                            </div>
+                        </fieldset>
+                    </div>
+            </div>
+        </section>
+
+        <footer class="white-bg"> <p>um pequeno passo para Pedro H.</p></footer>
 
 </body>
 </html>
