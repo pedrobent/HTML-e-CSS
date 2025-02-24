@@ -22,3 +22,31 @@
     transition: all 300ms ease-in-out;
 }
 
+.transition-text{
+    display: grid;
+    grid-template-row: repeat(50px);
+    justify-items: center;
+}
+
+.direction{
+    display: flex;
+}
+
+.transition-text{
+    color: transparent;
+}
+
+.transition-text img{
+    width: 70px;
+}
+
+.transition-text:hover{
+    padding: 20px;
+    color: #000;
+    transition: all 300ms ease-in-out;
+}
+
+
+
+
+
