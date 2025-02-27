@@ -48,7 +48,7 @@
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background: crimson;
+    background: var(--primary-color);
     transition: all 300ms ease-in-out;
 }
 
