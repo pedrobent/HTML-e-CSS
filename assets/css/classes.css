@@ -44,6 +44,10 @@
     min-height: 100vh;
 }
 
+.section-skill{
+    min-height: 60vh;
+}
+
 .menu-space{
     height: 6.5rem;
 }

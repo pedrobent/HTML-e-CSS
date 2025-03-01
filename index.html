@@ -9,8 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/variables.css">
@@ -34,7 +33,7 @@
     <aside class="menu">
         <div class="main-content menu-content">
             <h1 onclick="getElementById('close-menu').checked = false">
-                <a href="#intro">LOGO</a>
+                <a href="#intro"><img src="assets\img\oie_VwzTkIsXF2IU.png" alt=""></a>
             </h1>
             <nav>
                 <ul onclick="getElementById('close-menu').checked = false">
@@ -51,9 +50,9 @@
 
     <section id="intro" class="section image-bg">
         <div class=" intro-content">
-            <div class="intro-text-content">
+            <div class="intro-text">
                 <h2>PEDRO BENTO</h2>
-                <h6>Desenvolvedor Fullstack</h6>
+                <h6 class="msg">Desenvolvedor Fullstack</h6>
             </div>
             <div>
                 <a href="https://github.com/pedrobent" target="_blank">
@@ -90,9 +89,9 @@
         </div>
     </section>
 
-    <section id="habilidades" class="section white-bg ">
+    <section id="habilidades" class="section-skill white-bg ">
         <div class="main-content">
-            <h2 class="grid-main-heading">Minhas habilidades</h2>
+            <h3 class="grid-main-heading">Minhas habilidades</h3>
             <p class="grid-description "></p>
             <div class="grid-one-content">
                 <article>
@@ -159,13 +158,18 @@
                             </a>
                         </div>
                         <div class="project-description">
-                            <h2>descrição</h2>
-                            <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
-                                dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii ihbiv
-                            </p>
+                            <div>
+                                <h5>descrição do projeto:</h5>
+                                <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
+                                    dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii
+                                    ihbiv
+                                </p>
+                            </div>
                             <div class="project-button">
-                                <button>Tela da pagina</button>
-                                <button>Repositorio</button>
+                                <button>Ver projeto</button>
+                                <button>
+                                    < Repositorio />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -183,13 +187,18 @@
                             </a>
                         </div>
                         <div class="project-description">
-                            <h2>descrição</h2>
-                            <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
-                                dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii ihbiv
-                            </p>
+                            <div>
+                                <h5>descrição do projeto:</h5>
+                                <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
+                                    dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii
+                                    ihbiv
+                                </p>
+                            </div>
                             <div class="project-button">
-                                <button>Tela da pagina</button>
-                                <button>Repositorio</button>
+                                <button>Ver projeto</button>
+                                <button>
+                                    < Repositorio />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -207,13 +216,18 @@
                             </a>
                         </div>
                         <div class="project-description">
-                            <h2>descrição</h2>
-                            <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
-                                dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii ihbiv
-                            </p>
+                            <div>
+                                <h5>descrição do projeto:</h5>
+                                <p>kjjdbnvclbdsljvbdl lkdn idbvkcdkvbskjd jdbidb iwdbviwdvc
+                                    dkjvbidwcv knkno ihbvihv hvuv ihbiuv jbib viuvbi ihvib ihvih ivih ivij i ij hii
+                                    ihbiv
+                                </p>
+                            </div>
                             <div class="project-button">
-                                <button>Tela da pagina</button>
-                                <button>Repositorio</button>
+                                <button>Ver projeto</button>
+                                <button>
+                                    < Repositorio />
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -227,25 +241,25 @@
 
     <section id="contato" class="section white-bg">
         <div class="main-content intro-content">
-            <div class="intro-text-content">
+            <div class="">
                 <h2>Contato</h2>
                 <p>Para mais informações e perguntas, basta entrar em contato</p>
-                <div>
+                <div class="grid">
                     <a href="https://github.com/pedrobent" target="_blank">
-                        <div class="contact-img">
+                        <div class="contact-img contact-git">
                             <img src="assets\img\25231.png" alt="icone github">
                             <h4>pedrobent</h4>
                         </div>
                     </a>
                     <a href="https://www.linkedin.com/in/pedro-bento-05928a201/" target="_blank">
-                        <div class="contact-img">
+                        <div class="contact-img contact-linkedin">
                             <img src="assets\img\linkedin (2).png" alt="icone linkdin">
                             <h4>Pedro Bento</h4>
                         </div>
                     </a>
 
                     <a href="https://wa.me/qr/BSRO7X37X7RCM1" target="_blank">
-                        <div class="contact-img">
+                        <div class="contact-img contact-whats">
                             <img src="assets\img\transferir.png" alt="Icone whatsapp">
                             <h4>(11)98965-5543</h4>
                         </div>
