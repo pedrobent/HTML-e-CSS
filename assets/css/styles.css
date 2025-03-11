@@ -41,7 +41,7 @@
     flex-flow: column wrap;
     justify-content: center;
     min-height: 100vh;
-    max-width: 64rem;
+    max-width: 100%;
     text-align: center;
 }
 
