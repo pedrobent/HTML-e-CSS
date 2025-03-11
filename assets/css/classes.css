@@ -28,8 +28,9 @@
 
 .image-bg{
     background: var(--white-color);
-    background-image: url('C:/Users/pedro/OneDrive/Desktop/django portifolio/portifolio/HTML-e-CSS/assets/img/WhatsApp Image 2025-02-24 at 11.02.41.jpeg');
+    background-image: url('C:/Users/pedro/OneDrive/Desktop/django portifolio/portifolio/HTML-e-CSS/assets/img/WhatsApp Image 2025-03-10 at 20.47.50.jpeg');
     background-position: center top;
+    background-size: cover;
     color: var(--primary-color);
 }
 
